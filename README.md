@@ -20,10 +20,16 @@ Use imwrite(filename, image) to write the image.
 End the program and close the output image windows.
 ## Program:
 ```python
-# Developed By:
-# Register Number
+# Developed By:Vineesh M
+# Register Number:212221230122
 # To Read,display the image
-
+```python
+import cv2
+import random 
+img=cv2.imread('mikasa.jpg',0)
+cv2.imshow('colorimage',img)
+cv2.waitKey(0)
+```
 
 
 
