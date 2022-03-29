@@ -23,7 +23,6 @@ End the program and close the output image windows.
 # Developed By:Vineesh M
 # Register Number:212221230122
 # To Read,display the image
-```python
 import cv2
 import random 
 img=cv2.imread('mikasa.jpg',0)
